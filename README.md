@@ -2,7 +2,9 @@
 Sofware Engineering Group Project
 
 **INDIAN INSTITUTE OF INFORMATION TECHNOLOGY ALLAHABAD , INDIA**
+
 PROJECT : AUTOMATIC HVAC MONITORING SYSTEM 
+
 SOFTWARE DESIGN SPECIFICATION
 
 **Submitted to :**
@@ -16,7 +18,7 @@ IIT2019106 - Ramavath Jayaram Naik
 
 IIT2019135 - Kathuri Abhinav
 
-IIT2019172 -N V Vasanth Reddy
+IIT2019172 - N V Vasanth Reddy
 
 Instructors: Amit Kumar and Ashutosh Kumar 
 
