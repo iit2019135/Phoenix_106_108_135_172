@@ -12,18 +12,18 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/linear_layout_of_test"
+            android:id="@+id/linear_layout_of_room"
             android:background="@android:color/background_light"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/room_no_info"
+                android:textColor="@android:color/black"
                 android:paddingTop="25dp"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:text="room "
                 android:textAlignment="center"
-                android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
             <LinearLayout
@@ -53,190 +53,6 @@
                     android:background="@android:color/holo_orange_light"
                     android:padding="10dp"
                     android:text="edit devices" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/ac_image"
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:padding="10dp"
-                    android:src="@drawable/ac_icon"/>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingLeft="30dp"
-                    android:layout_height="120dp">
-
-                    <TextView
-                        android:id="@+id/ac_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="AC"
-                        android:textSize="25sp"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/ac_on_off"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="2dp"
-                        android:text="ON"
-                        android:textSize="15sp"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/ac_temperature"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Temperature : 27"
-                        android:textSize="15sp"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/ac_swing"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Swing : on"
-                        android:textSize="15sp"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/fan_image"
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:padding="10dp"
-                    android:src="@drawable/fan_icon"/>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingLeft="30dp"
-                    android:layout_height="120dp">
-
-                    <TextView
-                        android:id="@+id/fan_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="FAN"
-                        android:textSize="25sp"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/fan_on_off"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="2dp"
-                        android:text="ON"
-                        android:textSize="15sp"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/fan_speed"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Speed: 5"
-                        android:textSize="15sp"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/heater_image"
-                    android:layout_width="120dp"
-                    android:layout_height="120dp"
-                    android:padding="10dp"
-                    android:src="@drawable/heater_icon"/>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingLeft="30dp"
-                    android:layout_height="120dp">
-
-                    <TextView
-                        android:id="@+id/heater_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="HEATER"
-                        android:textSize="25sp"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/heater_on_off"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="2dp"
-                        android:text="ON"
-                        android:textSize="15sp"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/heater_temperature"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Temperature : 27"
-                        android:textSize="15sp"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/heater_swing"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Swing : on"
-                        android:textSize="15sp"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/ventilator_image"
-                    android:layout_width="120dp"
-                    android:padding="10dp"
-                    android:layout_height="120dp"
-                    android:src="@drawable/ventilator_icon"/>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingLeft="30dp"
-                    android:layout_height="120dp">
-
-                    <TextView
-                        android:id="@+id/ventilator_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="VENTILATOR"
-                        android:textSize="25sp"
-                        android:textStyle="bold"/>
-                    <TextView
-                        android:id="@+id/ventilator_on_off"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="2dp"
-                        android:text="ON"
-                        android:textSize="15sp"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
 
             </LinearLayout>
 
