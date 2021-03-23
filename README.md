@@ -5,8 +5,6 @@ Sofware Engineering Group Project
 
 PROJECT : AUTOMATIC HVAC MONITORING SYSTEM 
 
-SOFTWARE DESIGN SPECIFICATION
-
 **Submitted to :**
 Department of Information Technology
 
